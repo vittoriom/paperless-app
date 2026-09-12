@@ -167,13 +167,24 @@ window.translations = {
 
     /* Footer */
     "footer-desc": "Privacy-first, local-first desktop document manager and search engine for macOS.",
+    "footer-brand-desc": "Privacy-first, local-first desktop document manager and search engine for macOS. 100% of your documents and index remain private on your machine.",
+    "footer-badge-local": "🔒 Local-First",
+    "footer-badge-private": "🛡️ 100% Private",
+    "footer-creator-title": "About the Developer",
+    "footer-creator-name": "Vittorio Monaco",
+    "footer-creator-role": "Staff Software Engineer @ Databricks",
+    "footer-creator-bio": "Built Paperless Desktop to make fast, organized, and private document management accessible to everyone without the need for complex server setups or cloud subscriptions. Designed for instant search, on-device intelligence, and complete local privacy.",
+    "footer-creator-github": "GitHub Profile",
     "footer-license": "Open-Source Software • MIT License",
     "footer-author": "Crafted by Vittorio Monaco",
     "footer-links-title": "Resources",
     "footer-docs": "Documentation",
-    "footer-releases": "Releases",
+    "footer-releases": "Releases & Changelog",
     "footer-issues": "Issue Tracker",
-    "footer-mcp": "MCP Guide"
+    "footer-mcp": "MCP Guide",
+    "footer-sandbox": "Interactive Sandbox",
+    "footer-copyright": "© 2026 Paperless Desktop. Developed by <a href=\"https://github.com/vittoriom\" target=\"_blank\" rel=\"noopener noreferrer\">Vittorio Monaco</a>.",
+    "footer-tagline": "Built with Tauri v2, Rust &amp; React for macOS."
   },
 
   it: {
@@ -344,12 +355,23 @@ window.translations = {
 
     /* Footer */
     "footer-desc": "Gestore documentale e motore di ricerca locale e privato per macOS.",
+    "footer-brand-desc": "Gestore documentale e motore di ricerca locale e privato per macOS. Il 100% dei tuoi documenti e dell'indice rimane privato sul tuo computer.",
+    "footer-badge-local": "🔒 Locale & Privato",
+    "footer-badge-private": "🛡️ 100% Privato",
+    "footer-creator-title": "Informazioni sullo Sviluppatore",
+    "footer-creator-name": "Vittorio Monaco",
+    "footer-creator-role": "Staff Software Engineer @ Databricks",
+    "footer-creator-bio": "Ha creato Paperless Desktop per rendere l'organizzazione e la ricerca rapida dei documenti accessibile a tutti, senza la complessità di configurazioni server o abbonamenti cloud. Progettato per ricerca istantanea, intelligenza on-device e totale privacy locale.",
+    "footer-creator-github": "Profilo GitHub",
     "footer-license": "Software Open-Source • Licenza MIT",
     "footer-author": "Creato da Vittorio Monaco",
     "footer-links-title": "Risorse",
     "footer-docs": "Documentazione",
-    "footer-releases": "Release",
+    "footer-releases": "Release & Changelog",
     "footer-issues": "Segnala un Problema",
-    "footer-mcp": "Guida MCP"
+    "footer-mcp": "Guida MCP",
+    "footer-sandbox": "Sandbox Interattiva",
+    "footer-copyright": "© 2026 Paperless Desktop. Sviluppato da <a href=\"https://github.com/vittoriom\" target=\"_blank\" rel=\"noopener noreferrer\">Vittorio Monaco</a>.",
+    "footer-tagline": "Costruito con Tauri v2, Rust &amp; React per macOS."
   }
 };
