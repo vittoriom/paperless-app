@@ -1,15 +1,11 @@
 {
-  "version": "v0.1.0",
-  "notes": "Initial release of Paperless Desktop with auto-updater support.",
-  "pub_date": "2026-10-24T18:00:00Z",
+  "version": "v0.2.0",
+  "notes": "Automatic background updates, What's New changelog dialog, batch operations, and duplicate detection.",
+  "pub_date": "2026-10-24T18:32:16.957Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "",
-      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.1.0/Paperless.Desktop_aarch64.app.tar.gz"
-    },
-    "darwin-x86_64": {
-      "signature": "",
-      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.1.0/Paperless.Desktop_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWZ6U0N1aHNsbVoydnVDbHdsVjRqWlp3NXM1QWpvQzJsSHl6Z085OTBZdS93U084V1lYaCs1QjhzbFdWS0I0blREQzJKNVRHQi9xV3N2SGw5MGp0VUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY2NzMwCWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negp4NFdxZG1RaEhDdzZCWXh5akg2TVo3RUh5cWFZVUlHTTFLMjdLL3NjWE91cC9tWGtoV2JCRHBQOWlwQncycDVIQ3RyMGpyb3ZlT21DMVZMOG40dmlDUT09Cg==",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.2.0/Paperless.Desktop_aarch64.app.tar.gz"
     }
   }
 }
