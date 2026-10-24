@@ -255,7 +255,7 @@ function updateThemeToggleUI(theme) {
    ============================================================ */
 function initReleaseFetcher() {
   const repoOwner = 'vittoriom';
-  const repoName = 'paperless';
+  const repoName = 'paperless-app';
   const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/releases/latest`;
   const defaultDownloadUrl = `https://github.com/${repoOwner}/${repoName}/releases`;
 

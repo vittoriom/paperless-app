@@ -1,0 +1,15 @@
+{
+  "version": "v0.1.0",
+  "notes": "Initial release of Paperless Desktop with auto-updater support.",
+  "pub_date": "2026-10-24T18:00:00Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.1.0/Paperless.Desktop_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.1.0/Paperless.Desktop_x64.app.tar.gz"
+    }
+  }
+}
