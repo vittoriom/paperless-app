@@ -1,11 +1,15 @@
 {
-  "version": "v0.2.0",
-  "notes": "Automatic background updates, What's New changelog dialog, batch operations, and duplicate detection.",
-  "pub_date": "2026-10-24T18:32:16.957Z",
+  "version": "v0.2.1",
+  "notes": "Native Vision OCR for camera photos & scanned PDFs, automatic language detection/translation, and auto-updater restart loop prevention.",
+  "pub_date": "2026-10-31T13:26:08.724Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWZ6U0N1aHNsbVoydnVDbHdsVjRqWlp3NXM1QWpvQzJsSHl6Z085OTBZdS93U084V1lYaCs1QjhzbFdWS0I0blREQzJKNVRHQi9xV3N2SGw5MGp0VUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY2NzMwCWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negp4NFdxZG1RaEhDdzZCWXh5akg2TVo3RUh5cWFZVUlHTTFLMjdLL3NjWE91cC9tWGtoV2JCRHBQOWlwQncycDVIQ3RyMGpyb3ZlT21DMVZMOG40dmlDUT09Cg==",
-      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.2.0/Paperless.Desktop_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWNrUjJsTGEwWCtJUmZ6YW1sR09rZTJ5VDBDTmRMWUEwRmRyS1ZObjhDcXpSQXFVcy9TY2xGRlJUcVRqSEJ5cVl1NEJoQUh2S2gycEJhSFpSTXYzQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDUzMTYyCWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negpzeTlsZVFOZG8zV1JzNXZmK2o4S3ZER3FBSWEzdXgwUnJSOFFGNWZnZm16ZzVZNXBCK0xLTjJaQjl6YlJ6THNWZGdSVTVBTW4wNk5BblhSVTVQYU1BUT09Cg==",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.2.1/Paperless.Desktop_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWNrUjJsTGEwWCtJUmZ6YW1sR09rZTJ5VDBDTmRMWUEwRmRyS1ZObjhDcXpSQXFVcy9TY2xGRlJUcVRqSEJ5cVl1NEJoQUh2S2gycEJhSFpSTXYzQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDUzMTYyCWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negpzeTlsZVFOZG8zV1JzNXZmK2o4S3ZER3FBSWEzdXgwUnJSOFFGNWZnZm16ZzVZNXBCK0xLTjJaQjl6YlJ6THNWZGdSVTVBTW4wNk5BblhSVTVQYU1BUT09Cg==",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.2.1/Paperless.Desktop_aarch64.app.tar.gz"
     }
   }
 }
