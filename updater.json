@@ -1,15 +1,15 @@
 {
-  "version": "v0.3.0",
-  "notes": "In-app AI Chat Assistant, Model Context Protocol (MCP) server, standalone CLI, and topic-organized full-screen settings.",
-  "pub_date": "2026-11-01T21:53:24.767Z",
+  "version": "v0.4.0",
+  "notes": "Office documents support (.docx, .xlsx, .pptx), generic files & archive indexing, multiple translation languages, markdown AI chat assistant, and instant inbox refresh.",
+  "pub_date": "2026-11-05T19:27:09.248Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWNKWjdHUHRtZWpWa0NvN29vOVU3TFJqdDBHSlBVTzNZenlPV0dsano3RFN2S2FQU1MwZm1WZDF4QTVVckxtNzh2Y0VMQzBESGxWU2dtOVFraDk1ZGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTY5OTk4CWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5nego0MEZKcFRZVGVwZnNRd3Nwbk4zbi9YNXhsdGNrQXhEeEZzdzlsMFNGLzI3anM5WlVmRWpDY3h4WmhFRGpSMzgvT0VzRnVuNzJ2YVFEUlpVTFRJOFNDQT09Cg==",
-      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.3.0/Paperless.Desktop_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dVRHbVdHQks3VGt5L0RIZm1iZlFOa1NkQVhhNEdCWk10eEtWbEk3c2d4RjBFMFMrdnJRNUkyS1JteDRTZ0xnMDlKbkFzTjlwcjZHZk4yZUxyVzJkNEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2ODE5CWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negpFci9LdXVaS1hVMU44RDM4S1JkTHRQajN4eHpiSTdzL2p0STRCQ0xHV3JWL2s2S3hPa0ZFdnRMT1B0TzZ4cUk0RVYyUlZKSEVweFlQU2NTbmhxcnZBZz09Cg==",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.4.0/Paperless.Desktop_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dWNKWjdHUHRtZWpWa0NvN29vOVU3TFJqdDBHSlBVTzNZenlPV0dsano3RFN2S2FQU1MwZm1WZDF4QTVVckxtNzh2Y0VMQzBESGxWU2dtOVFraDk1ZGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTY5OTk4CWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5nego0MEZKcFRZVGVwZnNRd3Nwbk4zbi9YNXhsdGNrQXhEeEZzdzlsMFNGLzI3anM5WlVmRWpDY3h4WmhFRGpSMzgvT0VzRnVuNzJ2YVFEUlpVTFRJOFNDQT09Cg==",
-      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.3.0/Paperless.Desktop_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRM1pRcW1jMmd0dVRHbVdHQks3VGt5L0RIZm1iZlFOa1NkQVhhNEdCWk10eEtWbEk3c2d4RjBFMFMrdnJRNUkyS1JteDRTZ0xnMDlKbkFzTjlwcjZHZk4yZUxyVzJkNEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2ODE5CWZpbGU6UGFwZXJsZXNzIERlc2t0b3AuYXBwLnRhci5negpFci9LdXVaS1hVMU44RDM4S1JkTHRQajN4eHpiSTdzL2p0STRCQ0xHV3JWL2s2S3hPa0ZFdnRMT1B0TzZ4cUk0RVYyUlZKSEVweFlQU2NTbmhxcnZBZz09Cg==",
+      "url": "https://github.com/vittoriom/paperless-app/releases/download/v0.4.0/Paperless.Desktop_aarch64.app.tar.gz"
     }
   }
 }
