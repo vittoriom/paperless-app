@@ -1,6 +1,6 @@
 # Paperless Desktop — Landing Page
 
-Official landing page and showcase website for **[Paperless Desktop](https://github.com/vittoriom/paperless)**, a privacy-first, local-first document management system and instant search engine for macOS built with Tauri v2, Rust, and React.
+Official landing page and showcase website for **[Paperless Desktop](https://github.com/vittoriom/paperless-app)**, a privacy-first, local-first document management system and instant search engine for macOS built with Tauri v2, Rust, and React.
 
 ## Features
 
