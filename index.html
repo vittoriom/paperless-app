@@ -3,14 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Paperless Desktop — Privacy-first, local document management and sub-millisecond search for macOS. 100% offline, on-device translation, SQLite FTS5, and zero cloud lock-in.">
-  <title>Paperless Desktop — Your Documents, Indexed & Private</title>
+  <meta name="description" content="Paperless Desktop — Privacy-first, local document management and instant search for macOS. 100% offline, on-device translation, SQLite FTS5, and zero cloud lock-in." data-i18n="meta-desc">
+  <title data-i18n="meta-title">Paperless Desktop — Your Documents, Organized & Private</title>
   
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Paperless Desktop — Your Documents, Organized & Private">
+  <meta property="og:description" content="Turn any folder into an intelligent, indexed archive. Instant SQLite full-text search, on-device neural translation, and automated inbox filing on macOS.">
+  <meta property="og:image" content="assets/logo.png">
+
   <!-- Favicons & Icons -->
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
 
-  <!-- Typography: Plus Jakarta Sans & Inter & JetBrains Mono -->
+  <!-- Typography: Plus Jakarta Sans, Inter, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -19,7 +25,7 @@
 </head>
 <body>
 
-  <!-- Ambient Glow Accents -->
+  <!-- Ambient Glow Background Accents -->
   <div class="bg-ambient">
     <div class="glow-orb glow-1"></div>
     <div class="glow-orb glow-2"></div>
@@ -37,7 +43,6 @@
 
       <nav class="nav-links">
         <a href="#features" class="nav-link" data-i18n="nav-features">Features</a>
-        <a href="#sandbox" class="nav-link" data-i18n="nav-sandbox">Live Demo</a>
         <a href="#compare" class="nav-link" data-i18n="nav-compare">Compare</a>
         <a href="#install" class="nav-link" data-i18n="nav-install">Install Guide</a>
         <a href="#faq" class="nav-link" data-i18n="nav-faq">FAQ</a>
@@ -75,16 +80,16 @@
   <section class="hero-section">
     <div class="container">
       <div class="hero-badge" data-i18n="hero-badge">
-        🛡️ 100% Local-First • Zero Cloud • Native macOS
+        🛡️ 100% Local-First • Intelligent Vaults • Neural Translation • Native macOS
       </div>
 
       <h1 class="hero-title" data-i18n="hero-title">
-        Your Documents, Indexed & Private.<br>
-        <span class="gradient-text">Sub-Millisecond Search on macOS.</span>
+        Your Documents, Organized & Private.<br>
+        <span class="gradient-text">Fast, Sovereign Document Management on macOS.</span>
       </h1>
 
       <p class="hero-subtitle" data-i18n="hero-subtitle">
-        Turn any folder into an intelligent, indexed archive. Instant SQLite FTS5 search, on-device neural translation via Apple Translation, automated inbox filing, and duplicate detection — with zero cloud dependencies.
+        Turn any folder into an intelligent, indexed archive. Instant SQLite full-text search, on-device neural translation via Apple Translation, automated inbox filing, and duplicate detection — with zero cloud dependencies.
       </p>
 
       <div class="hero-cta-group">
@@ -97,36 +102,32 @@
           <span data-i18n="hero-download">Download for macOS</span>
         </a>
 
-        <a href="#sandbox" class="btn btn-secondary btn-lg">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polygon points="10 8 16 12 10 16 10 8"></polygon>
-          </svg>
-          <span data-i18n="hero-demo">Try Interactive Demo</span>
+        <a href="#features" class="btn btn-secondary btn-lg">
+          <span data-i18n="hero-explore">Explore Capabilities</span>
         </a>
       </div>
 
       <div id="hero-version-text" class="hero-release-info" data-i18n="hero-version">
-        Latest Release: v0.1.0 • macOS 13+ (Universal Apple Silicon & Intel)
+        Latest Release: v0.5.0 • macOS 13+ (Universal Apple Silicon & Intel)
       </div>
 
-      <!-- Quick Metrics Bar -->
+      <!-- Quick Stats Bar -->
       <div class="stats-bar">
         <div class="stat-item">
-          <div class="stat-number" data-i18n="stat-speed">&lt; 1ms</div>
-          <div class="stat-label" data-i18n="stat-speed-sub">Full-text FTS5 queries</div>
+          <div class="stat-number" data-i18n="stat-local">100% Local-First</div>
+          <div class="stat-label" data-i18n="stat-local-sub">Your data never leaves your Mac</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number" data-i18n="stat-privacy">100%</div>
-          <div class="stat-label" data-i18n="stat-privacy-sub">On-device & offline</div>
+          <div class="stat-number" data-i18n="stat-search">Instant Search</div>
+          <div class="stat-label" data-i18n="stat-search-sub">SQLite FTS5 query compiler</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number" data-i18n="stat-size">&lt; 15 MB</div>
-          <div class="stat-label" data-i18n="stat-size-sub">Lightweight Tauri v2 binary</div>
+          <div class="stat-number" data-i18n="stat-trans">Neural Translation</div>
+          <div class="stat-label" data-i18n="stat-trans-sub">On-device Apple Neural Engine</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number" data-i18n="stat-ai">Native MCP</div>
-          <div class="stat-label" data-i18n="stat-ai-sub">Claude & Cursor ready</div>
+          <div class="stat-number" data-i18n="stat-ai">Native MCP & CLI</div>
+          <div class="stat-label" data-i18n="stat-ai-sub">Claude & Cursor AI ready</div>
         </div>
       </div>
 
@@ -257,8 +258,8 @@
   <section id="features" class="features-section">
     <div class="container">
       <div class="section-header">
-        <div class="section-badge" data-i18n="features-title">Core Capabilities</div>
-        <h2 class="section-title" data-i18n="features-title">Architected for Speed & Total Sovereignty</h2>
+        <div class="section-badge" data-i18n="features-badge">Core Capabilities</div>
+        <h2 class="section-title" data-i18n="features-title">Engineered for Privacy & Organization</h2>
         <p class="section-subtitle" data-i18n="features-subtitle">
           No heavyweight Docker containers, no remote databases, and no cloud subscriptions. Paperless Desktop gives you native Mac performance and complete data ownership.
         </p>
@@ -268,7 +269,7 @@
         <!-- Feature 1 -->
         <div class="feature-card">
           <div class="feature-icon-box">⚡</div>
-          <h3 class="feature-title" data-i18n="feat-fts-title">Sub-Millisecond FTS5 Search</h3>
+          <h3 class="feature-title" data-i18n="feat-fts-title">Instant Full-Text Search</h3>
           <p class="feature-desc" data-i18n="feat-fts-desc">
             Embedded SQLite with FTS5 tokenization and custom Rust AST query compiler. Filter by boolean logic, dates, prefixes (<code>tag:</code>, <code>type:</code>, <code>correspondent:</code>, <code>ext:</code>), and custom metadata.
           </p>
@@ -286,27 +287,27 @@
         <!-- Feature 3 -->
         <div class="feature-card">
           <div class="feature-icon-box">📥</div>
-          <h3 class="feature-title" data-i18n="feat-inbox-title">Automated Inbox Ingestion</h3>
+          <h3 class="feature-title" data-i18n="feat-inbox-title">Automated Inbox & Folder Mirroring</h3>
           <p class="feature-desc" data-i18n="feat-inbox-desc">
-            Monitors an <code>inbox/</code> directory in background. Automatically organizes incoming scans and PDFs into date hierarchies (<code>documents/YYYY/MM/</code>), extracts text, and computes SHA-256 hashes.
+            Monitors your inbox directory in the background. Ingests files into date hierarchies or preserves your existing folder tree as mirrored virtual folders.
           </p>
         </div>
 
         <!-- Feature 4 -->
         <div class="feature-card">
           <div class="feature-icon-box">🔍</div>
-          <h3 class="feature-title" data-i18n="feat-dedup-title">Duplicate & Similarity Engine</h3>
+          <h3 class="feature-title" data-i18n="feat-dedup-title">Duplicate Detection & Relinking</h3>
           <p class="feature-desc" data-i18n="feat-dedup-desc">
-            Combines cryptographic SHA-256 matching with an 85%+ lexical token & 2-gram Jaccard similarity engine. Review side-by-side diffs and merge metadata in one click.
+            Combines cryptographic SHA-256 matching with lexical token similarity. Automatically relinks moved or renamed documents preserving tags and custom fields.
           </p>
         </div>
 
         <!-- Feature 5 -->
         <div class="feature-card">
           <div class="feature-icon-box">💽</div>
-          <h3 class="feature-title" data-i18n="feat-external-title">Decoupled Storage & External Vaults</h3>
+          <h3 class="feature-title" data-i18n="feat-external-title">Decoupled Storage & External Drives</h3>
           <p class="feature-desc" data-i18n="feat-external-desc">
-            Store your lightning-fast SQLite index on your internal SSD while keeping gigabytes of PDFs on external hard drives, network NAS, or encrypted volumes. Degrades gracefully offline.
+            Store your SQLite index locally while keeping gigabytes of documents on external drives, network shares, or secondary disks. Degrades gracefully offline.
           </p>
         </div>
 
@@ -317,78 +318,6 @@
           <p class="feature-desc" data-i18n="feat-mcp-desc">
             Native command-line interface and built-in MCP server. Connect local AI tools like Claude Desktop or Cursor to query, summarize, and cross-reference your archive securely.
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Explorer Sandbox -->
-  <section id="sandbox" class="sandbox-section">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-badge" data-i18n="sandbox-badge">Live Interactive Explorer</div>
-        <h2 class="section-title" data-i18n="sandbox-title">Experience Paperless in Your Browser</h2>
-        <p class="section-subtitle" data-i18n="sandbox-subtitle">
-          Test the real query syntax, inspect extracted metadata, and preview on-device bilingual translation in this interactive sandbox.
-        </p>
-      </div>
-
-      <div class="sandbox-container">
-        <!-- Search Toolbar -->
-        <div class="sandbox-search-bar">
-          <div class="sandbox-input-wrapper">
-            <span class="search-prefix-icon">🔍</span>
-            <input 
-              type="text" 
-              id="sandbox-search-input" 
-              class="sandbox-input" 
-              placeholder="Try: tag:taxes, correspondent:Apple, type:invoice, amount:>500, or lang:de"
-              data-i18n-placeholder="sandbox-search-placeholder"
-              autocomplete="off"
-            >
-            <button id="sandbox-clear-search" class="sandbox-clear-btn" title="Clear query">×</button>
-          </div>
-
-          <div class="sandbox-presets">
-            <button class="sandbox-preset-chip active" data-query="" data-i18n="sandbox-preset-all">All Documents</button>
-            <button class="sandbox-preset-chip" data-query="tag:taxes" data-i18n="sandbox-preset-taxes">🏷️ tag:taxes</button>
-            <button class="sandbox-preset-chip" data-query="correspondent:Apple" data-i18n="sandbox-preset-apple">🏢 correspondent:Apple</button>
-            <button class="sandbox-preset-chip" data-query="type:invoice" data-i18n="sandbox-preset-invoice">🧾 type:invoice</button>
-            <button class="sandbox-preset-chip" data-query="translated:true" data-i18n="sandbox-preset-trans">🌐 translated:true</button>
-            <button class="sandbox-preset-chip" data-query="is:duplicate" data-i18n="sandbox-preset-dup">⚠️ is:duplicate</button>
-          </div>
-
-          <div class="sandbox-view-toggle">
-            <button class="sandbox-view-btn active" data-view="grid" data-i18n="sandbox-view-grid">Grid</button>
-            <button class="sandbox-view-btn" data-view="list" data-i18n="sandbox-view-list">List</button>
-          </div>
-        </div>
-
-        <!-- Main Sandbox Split Layout -->
-        <div class="sandbox-body">
-          <!-- Document Catalog Results -->
-          <div class="sandbox-docs-pane">
-            <div class="sandbox-pane-header">
-              <span id="sandbox-results-count">6 documents matching</span>
-              <span>Sorted by Ingestion Date</span>
-            </div>
-            <div id="sandbox-docs-container" class="sandbox-docs-list grid-view">
-              <!-- Dynamically populated by app.js -->
-            </div>
-          </div>
-
-          <!-- Document Inspector Drawer -->
-          <div class="sandbox-drawer-pane">
-            <div class="drawer-tabs">
-              <button class="drawer-tab-btn active" data-tab="meta" data-i18n="sandbox-tab-meta">Metadata</button>
-              <button class="drawer-tab-btn" data-tab="trans" data-i18n="sandbox-tab-trans">Neural Translation</button>
-              <button class="drawer-tab-btn" data-tab="diff" data-i18n="sandbox-tab-diff">Duplicate Diff</button>
-            </div>
-
-            <div id="sandbox-drawer-content" class="drawer-content">
-              <!-- Dynamically populated by app.js -->
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -420,7 +349,7 @@
               <td><strong data-i18n="comp-setup">Setup Friction</strong></td>
               <td class="highlight-col">✨ <span data-i18n="comp-setup-p">Single DMG drag-and-drop</span></td>
               <td>📦 <span data-i18n="comp-setup-d">Complex Docker, Redis, Postgres, Celery</span></td>
-              <td>☁️ <span data-i18n="comp-setup-c">Sign up, OAuth, client install</span></td>
+              <td>☁️ <span data-i18n="comp-setup-c">Account creation & client install</span></td>
             </tr>
             <tr>
               <td><strong data-i18n="comp-privacy">Data Privacy & Telemetry</strong></td>
@@ -429,20 +358,20 @@
               <td>⚠️ <span data-i18n="comp-privacy-c">Files scanned in the cloud, telemetry collected</span></td>
             </tr>
             <tr>
-              <td><strong data-i18n="comp-ram">Resource Footprint</strong></td>
-              <td class="highlight-col">⚡ <span data-i18n="comp-ram-p">&lt; 60 MB RAM (Rust + Tauri v2)</span></td>
-              <td>🐢 <span data-i18n="comp-ram-d">1.5 GB - 3 GB RAM (Docker containers)</span></td>
-              <td>🔄 <span data-i18n="comp-ram-c">150 MB - 600 MB (Electron app / sync)</span></td>
+              <td><strong data-i18n="comp-arch">Architecture & Containers</strong></td>
+              <td class="highlight-col">⚡ <span data-i18n="comp-arch-p">Zero Docker / containers (Native macOS app)</span></td>
+              <td>🐢 <span data-i18n="comp-arch-d">Heavyweight multi-container server stack</span></td>
+              <td>🔄 <span data-i18n="comp-arch-c">Proprietary cloud web / Electron app</span></td>
             </tr>
             <tr>
               <td><strong data-i18n="comp-search">Search Engine</strong></td>
-              <td class="highlight-col">🚀 <span data-i18n="comp-search-p">Native SQLite FTS5 (sub-millisecond)</span></td>
+              <td class="highlight-col">🚀 <span data-i18n="comp-search-p">Native SQLite FTS5 (Local & instant)</span></td>
               <td>⚙️ <span data-i18n="comp-search-d">Whoosh / PostgreSQL full-text</span></td>
               <td>🌐 <span data-i18n="comp-search-c">Remote cloud search with network latency</span></td>
             </tr>
             <tr>
               <td><strong data-i18n="comp-translate">Document Translation</strong></td>
-              <td class="highlight-col">🧠 <span data-i18n="comp-translate-p">macOS Translation.framework (Free, private)</span></td>
+              <td class="highlight-col">🧠 <span data-i18n="comp-translate-p">Native macOS Translation.framework (Free, private)</span></td>
               <td>❌ <span data-i18n="comp-translate-d">Not built-in / requires paid cloud API keys</span></td>
               <td>💳 <span data-i18n="comp-translate-c">Third-party AI plugins with per-token pricing</span></td>
             </tr>
@@ -465,7 +394,7 @@
         <div class="section-badge" data-i18n="install-badge">Quick Setup</div>
         <h2 class="section-title" data-i18n="install-title">macOS Installation Guide</h2>
         <p class="section-subtitle" data-i18n="install-subtitle">
-          Because Paperless Desktop is open-source and built locally, follow these simple steps to install and run it on Apple Silicon or Intel Macs.
+          Follow these simple steps to install and run Paperless Desktop on Apple Silicon or Intel Macs.
         </p>
       </div>
 
@@ -488,7 +417,7 @@
             <h3 class="install-step-title" data-i18n="install-step2-title">2. Drag to Applications Folder</h3>
           </div>
           <p class="install-step-desc" data-i18n="install-step2-desc">
-            Mount the DMG and drag Paperless Desktop into your <code>/Applications</code> directory.
+            Mount the DMG and drag Paperless Desktop into your /Applications directory.
           </p>
         </div>
 
@@ -499,7 +428,7 @@
             <h3 class="install-step-title" data-i18n="install-step3-title">3. Allow First Launch (macOS Gatekeeper)</h3>
           </div>
           <p class="install-step-desc" data-i18n="install-step3-desc">
-            As an independently compiled open-source binary, right-click the app in Finder and choose <strong>Open</strong>, or run the standard one-line terminal command:
+            As an independently compiled open-source binary, right-click the app in Finder and choose Open, or run this one-line terminal command:
           </p>
           <div class="terminal-box">
             <span class="terminal-cmd">xattr -cr "/Applications/Paperless Desktop.app"</span>
@@ -513,10 +442,10 @@
         <div class="install-card" style="grid-column: 1 / -1;">
           <div class="install-step-header">
             <span class="install-step-num">4</span>
-            <h3 class="install-step-title" data-i18n="install-step4-title">4. Initialize Your First Vault</h3>
+            <h3 class="install-step-title" data-i18n="install-step4-title">4. Initialize Your Vault</h3>
           </div>
           <p class="install-step-desc" data-i18n="install-step4-desc">
-            Launch the app and select any local folder (or create a new one). Paperless instantly generates an <code>inbox/</code> and SQLite index without modifying your originals.
+            Launch the app and select any local folder or existing document directory. Paperless instantly sets up indexing without modifying your originals.
           </p>
         </div>
       </div>
@@ -542,7 +471,7 @@
             <span class="faq-toggle-icon">−</span>
           </div>
           <div class="faq-answer" data-i18n="faq-a1">
-            Your files remain regular, standard files in whatever folder you choose on disk! Paperless never locks your files inside proprietary databases or hidden containers. It organizes documents into clean date hierarchies (e.g. <code>documents/2026/09/</code>) while keeping an embedded SQLite index (<code>.paperless/paperless.db</code>) for instant querying.
+            Your files remain regular, standard files in whatever folder you choose on disk! Paperless never locks your files inside proprietary databases or hidden containers. It organizes documents into clean date hierarchies (e.g. <code>documents/YYYY/MM/</code>) or preserves your existing folder tree while keeping an embedded SQLite index (<code>.paperless/paperless.db</code>) for instant querying.
           </div>
         </div>
 
@@ -571,7 +500,7 @@
         <!-- FAQ 4 -->
         <div class="faq-item">
           <div class="faq-item-header">
-            <h3 class="faq-question" data-i18n="faq-q4">Can I store my documents on a Synology, QNAP, or external SSD?</h3>
+            <h3 class="faq-question" data-i18n="faq-q4">Can I store my documents on an external SSD or network drive?</h3>
             <span class="faq-toggle-icon">+</span>
           </div>
           <div class="faq-answer" data-i18n="faq-a4">
@@ -610,7 +539,7 @@
       <div class="cta-box">
         <h2 class="cta-title" data-i18n="cta-title">Take Complete Control of Your Digital Archive</h2>
         <p class="cta-subtitle" data-i18n="cta-subtitle">
-          Lightweight, blazing-fast, and 100% private. Ready for macOS 13+ on Apple Silicon & Intel.
+          Private, native, and sovereign. Ready for macOS 13+ on Apple Silicon & Intel.
         </p>
         <div class="cta-buttons">
           <a id="cta-download-btn" href="https://github.com/vittoriom/paperless/releases/latest" class="btn btn-primary btn-lg">
@@ -659,7 +588,7 @@
                 <span class="creator-role" data-i18n="footer-creator-role">Staff Software Engineer @ Databricks</span>
               </div>
             </div>
-            <p class="creator-bio" data-i18n="footer-creator-bio">Built Paperless Desktop to make fast, organized, and private document management accessible to everyone without the need for complex server setups or cloud subscriptions. Designed for instant search, on-device intelligence, and complete local privacy.</p>
+            <p class="creator-bio" data-i18n="footer-creator-bio">Built Paperless Desktop to make fast, organized, and private document management accessible to everyone without server setups or cloud subscriptions.</p>
             <div class="creator-links">
               <a href="https://github.com/vittoriom" target="_blank" rel="noopener noreferrer" class="creator-link">
                 <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
@@ -683,7 +612,6 @@
           <ul class="footer-links">
             <li><a href="https://github.com/vittoriom/paperless" target="_blank" rel="noopener noreferrer" data-i18n="footer-docs">Documentation</a></li>
             <li><a href="https://github.com/vittoriom/paperless/releases" target="_blank" rel="noopener noreferrer" data-i18n="footer-releases">Releases & Changelog</a></li>
-            <li><a href="#sandbox" data-i18n="footer-sandbox">Interactive Sandbox</a></li>
             <li><a href="https://github.com/vittoriom/paperless" target="_blank" rel="noopener noreferrer" data-i18n="footer-mcp">MCP Guide</a></li>
             <li><a href="https://github.com/vittoriom/paperless/issues" target="_blank" rel="noopener noreferrer" data-i18n="footer-issues">Issue Tracker</a></li>
           </ul>
@@ -696,9 +624,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Toast Notification Container -->
-  <div id="app-toast" class="app-toast"></div>
 
   <!-- Scripts -->
   <script src="translations.js"></script>
